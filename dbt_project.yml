@@ -32,27 +32,19 @@ clean-targets:         # directories to be removed by `dbt clean`
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
-  +transient: false
-  curso:
-    # Applies to all files under models/example/
+  Steam_Reviews_Sentiment_Project:
+    +transient: false
 
-    staging:
+    steam:
       +materialized: view
       +database: "{{ env_var('DBT_ENVIRONMENTS') }}_SILVER_DB"
-      google_sheets:
-        +schema: google_sheets
-      sql_server_dbo:
-        +schema: sql_server_dbo
-      
-    marts:
-      +materialized: table
-      +database: "{{ env_var('DBT_ENVIRONMENTS') }}_GOLD_DB"
-      core:
-        +schema: core
+      +schema: "PUBLIC"  
+
 seeds:
-  +schema: seed_data
-  +database: "{{ env_var('DBT_ENVIRONMENTS') }}_BRONZE_DB"        
+  +schema: "RAW"  
+  +database: "{{ env_var('DBT_ENVIRONMENTS') }}_BRONZE_DB"
+
 snapshots:
   +transient: false
   +target_database: "{{ env_var('DBT_ENVIRONMENTS') }}_SILVER_DB"
-  +target_schema: snapshots
+  +target_schema: "SNAPSHOTS"
