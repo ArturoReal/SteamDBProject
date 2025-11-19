@@ -40,6 +40,13 @@ models:
       +database: "{{ env_var('DBT_ENVIRONMENTS') }}_SILVER_DB"
       +schema: "PUBLIC"  
 
+    intermediate:
+      +materialized: view
+      +database: "{{ env_var('DBT_ENVIRONMENTS') }}_GOLD_DB"
+      +schema: "INTERMEDIATE"
+
+
+
 seeds:
   +schema: "RAW"  
   +database: "{{ env_var('DBT_ENVIRONMENTS') }}_BRONZE_DB"

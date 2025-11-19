@@ -1,150 +1,147 @@
 version: 2
 
 models:
+
   - name: stg_steam__games
-    description: ""
+    description: "Cleaned list of games"
     columns:
       - name: app_id
-        data_type: number
-        description: ""
+        description: "Steam App ID"
+        tests:
+          - unique
+          - not_null
 
       - name: ip_name
-        data_type: varchar
-        description: ""
+        description: "Game name"
 
       - name: release_date
-        data_type: date
-        description: ""
+        description: "Release date"
 
       - name: price_usd
-        data_type: float
-        description: ""
+        description: "Price in USD"
 
       - name: dlc_count
-        data_type: number
-        description: ""
+        description: "Number of DLCs"
 
       - name: windows
-        data_type: boolean
-        description: ""
+        description: "Runs on Windows"
 
       - name: mac
-        data_type: boolean
-        description: ""
+        description: "Runs on Mac"
 
       - name: linux
-        data_type: boolean
-        description: ""
+        description: "Runs on Linux"
 
       - name: metacritic_score
-        data_type: number
-        description: ""
+        description: "Metacritic score"
+
 
   - name: stg_steam__language
-    description: ""
+    description: "Language lookup table"
     columns:
       - name: language_id
-        data_type: varchar
-        description: ""
+        description: "Language identifier"
+        tests:
+          - unique
+          - not_null
 
       - name: language_name
-        data_type: varchar
-        description: ""
+        description: "Language name"
+        tests:
+          - not_null
+
 
   - name: stg_steam__reviews
-    description: ""
+    description: "Cleaned Steam reviews"
     columns:
       - name: review_id
-        data_type: number
-        description: ""
+        description: "Review ID"
+        tests:
+          - not_null
+          - unique
 
       - name: app_id
-        data_type: number
-        description: ""
+        description: "Game App ID"
+        tests:
+          - not_null
 
       - name: language_id
-        data_type: varchar
-        description: ""
+        description: "Language ID"
 
       - name: review_text
-        data_type: varchar
-        description: ""
+        description: "Text of the review"
+        tests:
+          - not_null
 
       - name: is_positive
-        data_type: boolean
-        description: ""
+        description: "Positive review flag"
 
       - name: steam_purchase
-        data_type: boolean
-        description: ""
+        description: "Purchased on Steam flag"
 
       - name: received_for_free
-        data_type: boolean
-        description: ""
+        description: "Free acquisition flag"
 
       - name: early_access
-        data_type: boolean
-        description: ""
+        description: "Early access flag"
 
       - name: created_at_utc
-        data_type: timestamp_ntz
-        description: ""
+        description: "Creation timestamp UTC"
+        tests:
+          - not_null
 
       - name: updated_at_utc
-        data_type: timestamp_ntz
-        description: ""
+        description: "Update timestamp UTC"
+        tests:
+          - not_null
 
       - name: last_loaded_utc
-        data_type: timestamp_ntz
-        description: ""
+        description: "ETL load timestamp UTC"
 
       - name: votes_up
-        data_type: number
-        description: ""
+        description: "Positive votes"
 
       - name: votes_funny
-        data_type: number
-        description: ""
+        description: "Funny votes"
 
       - name: comment_count
-        data_type: number
-        description: ""
+        description: "Number of comments"
 
       - name: author_steamid
-        data_type: number
-        description: ""
+        description: "Author Steam ID"
 
       - name: author_num_games_owned
-        data_type: number
-        description: ""
+        description: "Owned games count"
 
       - name: author_num_reviews
-        data_type: number
-        description: ""
+        description: "Number of reviews by author"
 
       - name: author_playtime_forever
-        data_type: number
-        description: ""
+        description: "Total playtime"
 
       - name: author_playtime_at_review
-        data_type: number
-        description: ""
+        description: "Playtime at review time"
+
 
   - name: stg_steam__updates
-    description: ""
+    description: "Clean cleaned update changelogs"
     columns:
       - name: app_id
-        data_type: number
-        description: ""
+        description: "Steam App ID"
+        tests:
+          - not_null
 
       - name: update_seq
-        data_type: number
-        description: ""
+        description: "Update sequence number"
+        tests:
+          - not_null
 
       - name: update_date_utc
-        data_type: timestamp_ntz
-        description: ""
+        description: "Update timestamp UTC"
+        tests:
+          - not_null
 
       - name: update_title
-        data_type: varchar
-        description: ""
+        description: "Title of the update"
+        tests:
+          - not_null
