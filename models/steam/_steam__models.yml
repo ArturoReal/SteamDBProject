@@ -1,0 +1,147 @@
+version: 2
+
+models:
+
+  - name: stg_steam__games
+    description: "Cleaned list of games"
+    columns:
+      - name: app_id
+        description: "Steam App ID"
+        tests:
+          - unique
+          - not_null
+
+      - name: ip_name
+        description: "Game name"
+
+      - name: release_date
+        description: "Release date"
+
+      - name: price_usd
+        description: "Price in USD"
+
+      - name: dlc_count
+        description: "Number of DLCs"
+
+      - name: windows
+        description: "Runs on Windows"
+
+      - name: mac
+        description: "Runs on Mac"
+
+      - name: linux
+        description: "Runs on Linux"
+
+      - name: metacritic_score
+        description: "Metacritic score"
+
+
+  - name: stg_steam__language
+    description: "Language lookup table"
+    columns:
+      - name: language_id
+        description: "Language identifier"
+        tests:
+          - unique
+          - not_null
+
+      - name: language_name
+        description: "Language name"
+        tests:
+          - not_null
+
+
+  - name: stg_steam__reviews
+    description: "Cleaned Steam reviews"
+    columns:
+      - name: review_id
+        description: "Review ID"
+        tests:
+          - not_null
+          - unique
+
+      - name: app_id
+        description: "Game App ID"
+        tests:
+          - not_null
+
+      - name: language_id
+        description: "Language ID"
+
+      - name: review_text
+        description: "Text of the review"
+        tests:
+          - not_null
+
+      - name: is_positive
+        description: "Positive review flag"
+
+      - name: steam_purchase
+        description: "Purchased on Steam flag"
+
+      - name: received_for_free
+        description: "Free acquisition flag"
+
+      - name: early_access
+        description: "Early access flag"
+
+      - name: created_at_utc
+        description: "Creation timestamp UTC"
+        tests:
+          - not_null
+
+      - name: updated_at_utc
+        description: "Update timestamp UTC"
+        tests:
+          - not_null
+
+      - name: last_loaded_utc
+        description: "ETL load timestamp UTC"
+
+      - name: votes_up
+        description: "Positive votes"
+
+      - name: votes_funny
+        description: "Funny votes"
+
+      - name: comment_count
+        description: "Number of comments"
+
+      - name: author_steamid
+        description: "Author Steam ID"
+
+      - name: author_num_games_owned
+        description: "Owned games count"
+
+      - name: author_num_reviews
+        description: "Number of reviews by author"
+
+      - name: author_playtime_forever
+        description: "Total playtime"
+
+      - name: author_playtime_at_review
+        description: "Playtime at review time"
+
+
+  - name: stg_steam__updates
+    description: "Clean cleaned update changelogs"
+    columns:
+      - name: app_id
+        description: "Steam App ID"
+        tests:
+          - not_null
+
+      - name: update_seq
+        description: "Update sequence number"
+        tests:
+          - not_null
+
+      - name: update_date_utc
+        description: "Update timestamp UTC"
+        tests:
+          - not_null
+
+      - name: update_title
+        description: "Title of the update"
+        tests:
+          - not_null

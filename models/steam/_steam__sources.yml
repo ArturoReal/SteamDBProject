@@ -1,0 +1,183 @@
+version: 2
+
+sources:
+  - name: steam_bronze
+    schema: raw
+    description: "Bronze layer raw Steam data"
+    database: "{{ env_var('DBT_ENVIRONMENTS') }}_BRONZE_DB"
+
+    quoting:
+      database: false
+      schema: false
+      identifier: false
+
+    tables:
+
+      - name: steam_games
+        description: "Raw list of games with basic attributes"
+        columns:
+          - name: app_id
+            data_type: number
+            description: "Steam App ID"
+            tests:
+              - not_null
+              - unique
+
+          - name: name
+            data_type: varchar
+            description: "Game name"
+            tests:
+              - not_null
+
+          - name: release_date
+            data_type: varchar
+            description: "Release date (raw string)"
+
+          - name: price
+            data_type: float
+            description: "Game price in USD"
+
+          - name: dlc_count
+            data_type: number
+            description: "Number of DLCs"
+
+          - name: windows
+            data_type: boolean
+            description: "Windows support flag"
+
+          - name: mac
+            data_type: boolean
+            description: "Mac support flag"
+
+          - name: linux
+            data_type: boolean
+            description: "Linux support flag"
+
+          - name: metacritic_score
+            data_type: number
+            description: "Metacritic score"
+
+
+      - name: steam_reviews
+        description: "Raw user reviews"
+        columns:
+          - name: review_id
+            data_type: varchar
+            description: "Review unique ID"
+            tests:
+              - not_null
+              - unique
+
+          - name: app_id
+            data_type: number
+            description: "Game App ID"
+            tests:
+              - not_null
+
+          - name: load_timestamp_utc
+            data_type: number
+            description: "ETL load timestamp (raw epoch)"
+
+          - name: language
+            data_type: varchar
+            description: "Language ISO text"
+            tests:
+              - not_null
+
+          - name: review_text
+            data_type: varchar
+            description: "Review text content"
+            tests:
+              - not_null
+
+          - name: is_positive
+            data_type: boolean
+            description: "Review sentiment flag"
+            tests:
+              - not_null
+
+          - name: timestamp_created
+            data_type: number
+            description: "Creation time in epoch"
+
+          - name: timestamp_updated
+            data_type: number
+            description: "Last update time in epoch"
+
+          - name: created_at_utc
+            data_type: number
+            description: "Creation timestamp UTC (epoch)"
+
+          - name: updated_at_utc
+            data_type: number
+            description: "Update timestamp UTC (epoch)"
+
+          - name: steam_purchase
+            data_type: boolean
+            description: "Whether the game was purchased on Steam"
+
+          - name: received_for_free
+            data_type: boolean
+            description: "Flag for free acquisition"
+
+          - name: early_access
+            data_type: boolean
+            description: "Flag for early access reviewers"
+
+          - name: votes_up
+            data_type: number
+            description: "Positive votes"
+
+          - name: votes_funny
+            data_type: number
+            description: "Funny votes"
+
+          - name: comment_count
+            data_type: number
+            description: "Number of comments"
+
+          - name: author_steamid
+            data_type: varchar
+            description: "Author Steam ID"
+
+          - name: author_num_games_owned
+            data_type: number
+            description: "Owned games count"
+
+          - name: author_num_reviews
+            data_type: number
+            description: "Review count by user"
+
+          - name: author_playtime_forever
+            data_type: number
+            description: "Total playtime"
+
+          - name: author_playtime_at_review
+            data_type: number
+            description: "Playtime at review time"
+
+
+      - name: steam_updates
+        description: "Raw changelog information per game"
+        columns:
+          - name: app_id
+            data_type: number
+            description: "Steam App ID"
+            tests:
+              - not_null
+
+          - name: update_seq
+            data_type: number
+            description: "Update sequence number"
+            tests:
+              - not_null
+
+          - name: update_date_raw
+            data_type: varchar
+            description: "Raw update date string"
+
+          - name: update_title
+            data_type: varchar
+            description: "Update title"
+            tests:
+              - not_null
