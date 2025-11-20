@@ -38,9 +38,9 @@ reviews as (
         author_steamid,
         author_num_games_owned,
         author_num_reviews,
-        author_playtime_forever,
-        author_playtime_at_review
-    from {{ ref('stg_steam__reviews') }}
+        author_playtime_forever_hours,
+        author_playtime_at_review_hours
+    from {{ ref('snap_steam_reviews') }}
 
 ),
 
@@ -63,8 +63,8 @@ joined as (
         r.author_steamid,
         r.author_num_games_owned,
         r.author_num_reviews,
-        r.author_playtime_forever,
-        r.author_playtime_at_review,
+        r.author_playtime_forever_hours,
+        r.author_playtime_at_review_hours,
         u.update_seq as current_update_seq,
         u.update_title as current_update_title,
         u.update_date_utc as current_update_date_utc,

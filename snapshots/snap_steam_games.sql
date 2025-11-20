@@ -11,9 +11,7 @@
       'release_date',
       'price_usd',
       'dlc_count',
-      'windows',
-      'mac',
-      'linux',
+      'system_id',
       'metacritic_score'
     ]
   )
@@ -25,9 +23,7 @@ select
     release_date,
     price_usd,
     dlc_count,
-    windows,
-    mac,
-    linux,
+    system_id,
     metacritic_score
 from {{ ref('stg_steam__games') }}
 

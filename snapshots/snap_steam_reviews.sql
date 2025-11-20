@@ -29,8 +29,8 @@ select
     author_steamid,
     author_num_games_owned,
     author_num_reviews,
-    author_playtime_forever,
-    author_playtime_at_review
+    author_playtime_forever_hours,
+    author_playtime_at_review_hours
 
 from {{ ref('stg_steam__reviews') }}
 

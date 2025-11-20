@@ -27,8 +27,9 @@ typed as (
         try_to_number(author_steamid) as author_steamid,
         author_num_games_owned,
         author_num_reviews,
-        author_playtime_forever,
-        author_playtime_at_review
+        floor(author_playtime_forever / 60.0)  as author_playtime_forever_hours,
+        floor(author_playtime_at_review / 60.0) as author_playtime_at_review_hours
+
         
     from source
 

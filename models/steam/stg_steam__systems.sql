@@ -8,14 +8,11 @@ with source as (
 
 typed as (
 
-    select
-        app_id,
-        name as ip_name,
-        to_date(release_date) as release_date,
-        price as price_usd,
-        dlc_count,
+    select distinct
         md5(CONCAT_WS('|', windows, mac, linux)) as system_id,
-        metacritic_score
+        windows,
+        mac,
+        linux
     from source
 
 )

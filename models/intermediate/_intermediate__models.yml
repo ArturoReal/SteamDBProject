@@ -1,0 +1,93 @@
+version: 2
+
+models:
+  - name: int_steam_reviews_between_updates
+    description: ""
+    columns:
+      - name: review_id
+        data_type: number
+        description: ""
+
+      - name: app_id
+        data_type: number
+        description: ""
+
+      - name: language_id
+        data_type: varchar
+        description: ""
+
+      - name: review_text
+        data_type: varchar
+        description: ""
+
+      - name: is_positive
+        data_type: boolean
+        description: ""
+
+      - name: steam_purchase
+        data_type: boolean
+        description: ""
+
+      - name: received_for_free
+        data_type: boolean
+        description: ""
+
+      - name: early_access
+        data_type: boolean
+        description: ""
+
+      - name: created_at_utc
+        data_type: timestamp_ntz
+        description: ""
+
+      - name: updated_at_utc
+        data_type: timestamp_ntz
+        description: ""
+
+      - name: votes_up
+        data_type: number
+        description: ""
+
+      - name: votes_funny
+        data_type: number
+        description: ""
+
+      - name: comment_count
+        data_type: number
+        description: ""
+
+      - name: author_steamid
+        data_type: number
+        description: ""
+
+      - name: author_num_games_owned
+        data_type: number
+        description: ""
+
+      - name: author_num_reviews
+        data_type: number
+        description: ""
+
+      - name: author_playtime_forever_hours
+        data_type: number
+        description: ""
+
+      - name: author_playtime_at_review_hours
+        data_type: number
+        description: ""
+
+      - name: current_update_seq
+        data_type: number
+        description: ""
+
+      - name: current_update_title
+        data_type: varchar
+        description: ""
+
+      - name: current_update_date_utc
+        data_type: timestamp_ntz
+        description: ""
+
+      - name: next_update_date_utc
+        data_type: timestamp_ntz
+        description: ""

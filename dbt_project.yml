@@ -44,6 +44,11 @@ models:
       +materialized: view
       +database: "{{ env_var('DBT_ENVIRONMENTS') }}_GOLD_DB"
       +schema: "INTERMEDIATE"
+    
+    marts: 
+      +materialized: view
+      +database: "{{ env_var('DBT_ENVIRONMENTS') }}_GOLD_DB"
+      +schema: "Marts"
 
 
 
