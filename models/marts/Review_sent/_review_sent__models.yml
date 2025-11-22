@@ -1,0 +1,208 @@
+version: 2
+
+models:
+  - name: dim_dates
+    description: ""
+    columns:
+      - name: date_key
+        data_type: date
+        description: ""
+
+      - name: date_day
+        data_type: date
+        description: ""
+
+      - name: year
+        data_type: number
+        description: ""
+
+      - name: month
+        data_type: number
+        description: ""
+
+      - name: day
+        data_type: number
+        description: ""
+
+      - name: year_month
+        data_type: varchar
+        description: ""
+
+      - name: weekday_iso
+        data_type: number
+        description: ""
+
+      - name: weekday_short
+        data_type: varchar
+        description: ""
+
+  - name: dim_games
+    description: ""
+    columns:
+      - name: app_id
+        data_type: number
+        description: ""
+
+      - name: game_name
+        data_type: varchar
+        description: ""
+
+      - name: release_date
+        data_type: date
+        description: ""
+
+      - name: price_usd
+        data_type: float
+        description: ""
+
+      - name: dlc_count
+        data_type: number
+        description: ""
+
+      - name: system_id
+        data_type: varchar
+        description: ""
+
+      - name: metacritic_score
+        data_type: number
+        description: ""
+
+  - name: dim_languages
+    description: ""
+    columns:
+      - name: language_id
+        data_type: varchar
+        description: ""
+
+      - name: language_name
+        data_type: varchar
+        description: ""
+
+  - name: dim_systems
+    description: ""
+    columns:
+      - name: system_id
+        data_type: varchar
+        description: ""
+
+      - name: windows
+        data_type: boolean
+        description: ""
+
+      - name: mac
+        data_type: boolean
+        description: ""
+
+      - name: linux
+        data_type: boolean
+        description: ""
+
+  - name: dim_update
+    description: ""
+    columns:
+      - name: app_id
+        data_type: number
+        description: ""
+
+      - name: update_seq
+        data_type: number
+        description: ""
+
+      - name: update_key
+        data_type: varchar
+        description: ""
+
+      - name: update_date_utc
+        data_type: timestamp_ntz
+        description: ""
+
+      - name: update_title
+        data_type: varchar
+        description: ""
+
+  - name: fact_steam_reviews_sentiment
+    description: ""
+    columns:
+      - name: review_id
+        data_type: number
+        description: ""
+
+      - name: app_id
+        data_type: number
+        description: ""
+
+      - name: language_id
+        data_type: varchar
+        description: ""
+
+      - name: review_date_key
+        data_type: date
+        description: ""
+
+      - name: update_key
+        data_type: varchar
+        description: ""
+
+      - name: votes_up
+        data_type: number
+        description: ""
+
+      - name: votes_funny
+        data_type: number
+        description: ""
+
+      - name: comment_count
+        data_type: number
+        description: ""
+
+      - name: author_num_games_owned
+        data_type: number
+        description: ""
+
+      - name: author_num_reviews
+        data_type: number
+        description: ""
+
+      - name: author_playtime_forever_hours
+        data_type: number
+        description: ""
+
+      - name: author_playtime_at_review_hours
+        data_type: number
+        description: ""
+
+      - name: is_positive
+        data_type: boolean
+        description: ""
+
+      - name: steam_purchase
+        data_type: boolean
+        description: ""
+
+      - name: received_for_free
+        data_type: boolean
+        description: ""
+
+      - name: early_access
+        data_type: boolean
+        description: ""
+
+      - name: current_update_seq
+        data_type: number
+        description: ""
+
+      - name: current_update_date_utc
+        data_type: timestamp_ntz
+        description: ""
+
+      - name: next_update_date_utc
+        data_type: timestamp_ntz
+        description: ""
+
+      - name: sentiment_label
+        data_type: varchar
+        description: ""
+
+      - name: sentiment_score
+        data_type: float
+        description: ""
