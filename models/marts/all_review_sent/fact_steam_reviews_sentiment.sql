@@ -15,6 +15,8 @@ with base as (
         early_access,
         created_at_utc,
         updated_at_utc,
+        review_valid_from_utc,
+        review_valid_to_utc,
         votes_up,
         votes_funny,
         comment_count,
@@ -34,13 +36,17 @@ with base as (
 final as (
 
     select
-
         review_id,
-        app_id,                                           
-        language_id,                                      
-        to_date(created_at_utc) as review_date_key,       
-        app_id || '-' || current_update_seq as update_key,
-        review_text, 
+        app_id,
+        language_id,
+
+        -- clave de fecha de la VERSIÓN de la review
+        to_date(review_valid_from_utc) as review_date_id,
+
+        -- clave de update 
+        app_id || '-' || current_update_seq as update_id,
+
+        review_text,
         votes_up,
         votes_funny,
         comment_count,
@@ -55,11 +61,11 @@ final as (
         current_update_seq,
         current_update_date_utc,
         next_update_date_utc,
-        cast(null as varchar) as sentiment_label,
-        cast(null as float)   as sentiment_score
+        review_valid_from_utc,
+        review_valid_to_utc
 
     from base
 )
 
 select *
-from final
+from final;

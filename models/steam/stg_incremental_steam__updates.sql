@@ -18,18 +18,17 @@ with source_updates as (
 final as (
 
     select
-        app_id,
-        update_seq,
-        update_date_utc,
-        update_title
-    from source_updates
+        s.app_id,
+        s.update_seq,
+        s.update_date_utc,
+        s.update_title
+    from source_updates s
 
     {% if is_incremental() %}
-        where update_date_utc >
-              coalesce(
-                  (select max(update_date_utc) from {{ this }}),
-                  to_timestamp_ntz('1970-01-01')
-              )
+    left join {{ this }} t
+        on  t.app_id      = s.app_id
+        and t.update_seq  = s.update_seq
+    where t.app_id is null          
     {% endif %}
 
 )
