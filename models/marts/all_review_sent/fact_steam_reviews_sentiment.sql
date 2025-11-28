@@ -58,6 +58,8 @@ final as (
         steam_purchase,
         received_for_free,
         early_access,
+        created_at_utc,
+        updated_at_utc,
         current_update_seq,
         current_update_date_utc,
         next_update_date_utc,
@@ -68,4 +70,4 @@ final as (
 )
 
 select *
-from final;
+from final

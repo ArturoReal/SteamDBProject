@@ -66,11 +66,11 @@ joined as (
         r.author_playtime_forever_hours,
         r.author_playtime_at_review_hours,
 
-        -- periodo de validez de ESA versión de la review
+        -- periodo de validez de cada review
         r.dbt_valid_from as review_valid_from_utc,
         r.dbt_valid_to   as review_valid_to_utc,
 
-        -- update asociada en ese periodo
+        -- update asociada 
         u.update_seq          as current_update_seq,
         u.update_title        as current_update_title,
         u.update_date_utc     as current_update_date_utc,
@@ -88,4 +88,4 @@ joined as (
 )
 
 select *
-from joined;
+from joined
