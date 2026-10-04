@@ -1,92 +1,82 @@
-# Día 5 — jueves 5 de noviembre de 2026 — Shenzhen (Futian)
+# Día 5 — jueves 5 de noviembre de 2026 — Shenzhen (Futian y Qianhai)
 
 Tipo de cambio usado: **1 € = 7,55 ¥** (4 de octubre de 2026). Los euros están redondeados. La comisión de Imagine por pagar en yuanes va aparte.
 
-Base de todas las rutas: el hotel. Si un día cambiáis de sitio a mitad de ruta, estas indicaciones siguen sirviendo para volver o para salir otra vez desde ahí.
+Base de todas las rutas: el hotel. Si a mitad del día estáis en otro sitio, la columna «Al siguiente» es la que toca seguir.
 
 **Hotel:** Garden Bincee / LuxCabins, 滨河大道5022号联合广场A座裙楼4A, Futian. Metro Gangxia (岗厦), salida E, a unos 5 minutos a pie.
 
-Texto para el taxi, copiadlo en el móvil antes de salir del avión:
+Texto para el taxi del aeropuerto:
 
 > 请到福田区滨河大道5022号联合广场A座，LuxCabins花园宾舍酒店，岗厦地铁站E口
 
 - [Google Maps — hotel](https://www.google.com/maps/search/?api=1&query=22.5326873,114.0641417)
 - [Amap — hotel](https://uri.amap.com/search?keyword=%E8%81%94%E5%90%88%E5%B9%BF%E5%9C%BA%E6%BB%A8%E6%B2%B3%E5%A4%A7%E9%81%935022&city=%E6%B7%B1%E5%9C%B3&callnative=1)
 
-La hoja de cálculo con las mismas tablas está en `dia-05-shenzhen.xlsx`, en esta misma carpeta. Ahí los enlaces se abren al pulsar la celda.
+La misma tabla está en `dia-05-shenzhen.xlsx`.
 
-## Si el día se puede hacer
+## Orden de este día
 
-Sí. UpperHills, Lianhua, el CBD, CoCo Park, Harmay, Riad y Shuiwei están en el mismo corredor norte-sur de Futian, a menos de 25 minutos del hotel en metro. No hace falta cruzar la ciudad.
+1. UpperHills, y dentro el Pop Mart.
+2. Lianhua Hill Park, a pie por el puente.
+3. Centro Pokémon de la前海壹方城 (Uniwalk, el centro al que llamáis Uniworld), en Bao'an.
+4. CoCo Park.
+5. Harmay, en One Avenue, al lado del hotel.
+6. Shuiwei Night Market.
 
-El orden lo marcan los horarios, no el capricho:
+El espectáculo de luces del Civic Center no va hoy. En noviembre las pases del viernes son a las 19:00, a las 20:00 y a las 21:00, y la plaza pide reserva. Queda anotado para el viernes 6; la tabla de ese día se hace cuando lo cerréis.
 
-1. UpperHills y el Pop Mart abren a las 10:00. Lianhua ya está abierto desde las 6:00, pero el centro comercial no.
-2. Del centro se cruza un puente y se entra en Lianhua. La bajada hacia el sur es el paseo del CBD y termina en CoCo Park.
-3. Harmay y Riad están a 10 minutos a pie del hotel. Se hacen de noche, cuando las torres se encienden (19:00–22:00).
-4. Shuiwei no es un mercado de mañana: los puestos abren a partir de las 16:00. Va el último.
+## Si se puede hacer
 
-El jueves 5 las torres del CBD se iluminan de 19:00 a 22:00. El espectáculo coordinado, el que pide reserva en la plaza del Civic Center, se concentra en viernes, sábados y festivos. Desde la calle y desde Riad se ve el distrito encendido sin reserva.
+Sí, con dos visitas cortas. UpperHills y Lianhua están pegados. El Pokémon no: la前海壹方城 está en Bao'an, a unos 20 km. Ida en taxi, unos 40–60 minutos. La vuelta en metro línea 1 os deja en CoCo Park, así que ese tramo no es un rodeo. Harmay no está en UpperHills: está a 10 minutos a pie del hotel, y cierra a las 22:00, así que va después de CoCo Park y antes de Shuiwei. Shuiwei cierra tarde y es la cena.
 
-Si el vuelo os deja sin fuerzas, el recorte que no rompe la ruta es: maletas, UpperHills y Lianhua, ducha, Shuiwei. CoCo Park y Riad se pueden pasar a otra noche: dormís en este hotel hasta el 11.
+Lianhua, una hora. CoCo Park, una hora. Si el vuelo os deja sin fuerzas, se recorta CoCo Park, no el Pokémon.
 
-No metáis el mismo día el museo y el mirador de Ping An. Cada uno pide entre una hora y hora y media, y vais saliendo de un vuelo nocturno. Están en la hoja de alternativas.
+Hay otra tienda oficial de cartas Pokémon en Longhua, en la壹方天地. La que corresponde a Uniwalk / Uniworld es la de Qianhai, en la前海壹方城.
 
 ## Horario para seguir
-
-Salida pensada para quien llega a las 07:10 y necesita dejar maletas. Si a las 9:30 ya estáis en la calle, se puede invertir el bloque de la mañana: primero Lianhua (ya está abierto) y a las 10:00 cruzar el puente a UpperHills. El resto del día no cambia.
 
 | Hora | Qué | Si vais justos |
 | --- | --- | --- |
 | 07:10 | Aterrizaje, T3 | — |
-| 08:00–08:30 | Taxi oficial, puerta 13 del centro de transporte | Si la cola es enorme: metro línea 11 |
-| 09:15–10:00 | Hotel, dejar maletas, aseo | No salgáis a ver sitios con las maletas |
-| 10:15–10:40 | Metro a UpperHills | Abre a las 10:00 |
-| 10:40–12:30 | UpperHills, Pop Mart y comida | Se puede dejar en una hora |
-| 12:30–14:15 | Puente a Lianhua Hill y mirador | El parque sigue abierto; no hace falta correr |
-| 14:15–15:00 | Bajada a pie por el CBD | Es el paseo de día. Las luces son a las 19:00 |
-| 15:00–16:30 | CoCo Park | Se puede saltar |
-| 16:30–19:00 | Hotel: check-in, ducha, una hora tumbados | No lo quitéis |
-| 19:00–20:15 | A pie hasta Harmay y Riad | Riad se puede mover a otra noche en Futian |
-| 20:15–22:00 | Metro a Shuiwei, cena y vuelta | Los puestos siguen hasta tarde |
+| 08:00–08:30 | Taxi oficial, puerta 13 | Si la cola es enorme: metro línea 11 |
+| 09:15–10:00 | Hotel, dejar maletas, aseo | No salgáis con las maletas |
+| 10:20–12:00 | UpperHills, Pop Mart y algo de comer | El centro abre a las 10:00 |
+| 12:00–13:00 | Puente a Lianhua y mirador | Una hora basta. El parque sigue abierto |
+| 13:10–14:00 | Taxi a la前海壹方城 | Unos 40–60 min |
+| 14:00–16:00 | Centro Pokémon, planta B2 | Jueves abre 10:00–22:00 |
+| 16:10–17:00 | Metro línea 1 hasta CoCo Park | Más fiable que un taxi a esa hora |
+| 17:00–18:00 | CoCo Park | Se puede saltar |
+| 18:10–19:00 | Harmay, a 10 min a pie del hotel | Cierra a las 22:00. Si solo queréis el Pop Mart, este paso se salta |
+| 19:15–21:00 | Shuiwei y vuelta al hotel | Los puestos siguen hasta cerca de las 2:00 |
 
 ## Ruta principal
 
-Precios de metro y taxi son por trayecto, no por persona en el taxi. El metro sí es por persona.
+| Orden | Sitio | Horario del jueves 5 | Precio | Desde el hotel | Volver al hotel | Al siguiente | Google Maps | Amap |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0 | Aeropuerto Bao'an, T3 | Llegada 07:10. Taxis 24 h | Taxi 100–180 ¥ (13–24 €). Metro unos 7 ¥ (1 €) por persona | No sale del hotel. Taxi en la puerta 13. Con maletas: 50–80 min. Plan B: línea 11 dirección 岗厦北, bajada en 岗厦北, y 10–15 min a pie | — | Maletas al hotel y metro al punto 1 | [Aeropuerto](https://www.google.com/maps/search/?api=1&query=22.6403727,113.8030964) | [Amap](https://uri.amap.com/search?keyword=%E6%B7%B1%E5%9C%B3%E5%AE%9D%E5%AE%89%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BAT3&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
+| 1 | UpperHills 深业上城 | 10:00–22:00 | Entrada gratis. Comida para dos: 150–300 ¥ (20–40 €) | **Metro.** Línea 10 en 岗厦, dirección 双拥街, 3 paradas, 冬瓜岭, salida E, 8 min a pie. Unos 25 min, unos 4 ¥ (0,50 €) por persona. Taxi 15–25 min, 20–40 ¥ (3–5 €) | Línea 10 dirección 福田口岸 hasta 岗厦, salida E | A pie por el puente a Lianhua, 10–20 min | [UpperHills](https://www.google.com/maps/search/?api=1&query=22.5601574,114.0651169) | [Corto](https://surl.amap.com/1zLO25wj2Di) · [Amap](https://uri.amap.com/search?keyword=%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
+| 1b | Pop Mart, dentro de UpperHills | El mismo horario del centro | Entrada gratis. Caja ciega habitual 59–79 ¥ (8–10 €) | El mismo metro. No volváis más tarde: se hace en esta parada | El mismo regreso | Seguid al puente | [Pop Mart](https://www.google.com/maps/search/?api=1&query=Pop+Mart+UpperHills+Shenzhen) | [Corto](https://surl.amap.com/n00mGij6ZR) · [Amap](https://uri.amap.com/search?keyword=Pop%20Mart%20%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
+| 2 | Lianhua Hill Park 莲花山公园 | 6:00–23:00. Última entrada 22:30 | Gratis | Si venís de UpperHills, a pie por el puente. Desde el hotel: taxi 15 min, 20–35 ¥ (3–5 €) | Taxi 15 min. En metro, bajad hasta 少年宫, línea 4 a 会展中心 y línea 1 a 岗厦 | Taxi directo a la前海壹方城. No paréis en CoCo Park de camino | [Lianhua](https://www.google.com/maps/search/?api=1&query=22.5566275,114.0532386) | [Corto](https://surl.amap.com/5Ay7ZNcydbt) · [Amap](https://uri.amap.com/search?keyword=%E8%8E%B2%E8%8A%B1%E5%B1%B1%E5%85%AC%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
+| 3 | Centro Pokémon, 前海壹方城 Uniwalk. B2, zona 捣谷岛谷. 新湖路99号, Bao'an | Jueves 10:00–22:00 (viernes y sábado hasta las 22:30) | Entrada gratis. El precio es el de lo que compréis | Desde el hotel, sin haber pasado por el parque: **metro línea 1** dirección 机场东 hasta 宝安中心, salida F, unos 45–55 min, unos 7 ¥ (1 €) por persona. Desde Lianhua, que es donde estaréis: **taxi**, 40–60 min, 80–140 ¥ (11–19 €). Texto: 请到宝安区新湖路99号前海壹方城，宝安中心地铁站F口 | Metro línea 1 dirección 罗湖 hasta 岗厦, unos 50 min. O taxi 40–70 min según el tráfico de la tarde | Metro línea 1 dirección 罗湖, bajada en 购物公园. Os deja en CoCo Park | [Uniwalk](https://www.google.com/maps/search/?api=1&query=22.5559022,113.8829498) | [Amap](https://uri.amap.com/search?keyword=%E5%89%8D%E6%B5%B7%E5%A3%B9%E6%96%B9%E5%9F%8E%E5%AE%9D%E5%8F%AF%E6%A2%A6&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
+| 4 | CoCo Park 星河COCO Park | 10:00–22:00, horario habitual del centro | Entrada gratis | Desde el hotel: línea 1 dirección 机场东, 2 paradas, 购物公园, salida C. Unos 10 min, unos 3 ¥. Taxi 10 min, 15–25 ¥ (2–3 €) | Línea 1 dirección 罗湖, 2 paradas, 岗厦, salida E | Línea 1 dos paradas hasta 岗厦 y 10 min a pie a Harmay. Si saltáis Harmay, línea 10 una parada hasta Shuiwei | [CoCo Park](https://www.google.com/maps/search/?api=1&query=22.5363888,114.0488652) | [Corto](https://surl.amap.com/66NMiBAfFR) · [Amap](https://uri.amap.com/search?keyword=%E6%98%9F%E6%B2%B3COCO%20Park&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
+| 5 | Harmay, One Avenue 卓悦中心 | 10:00–22:00 | Entrada gratis. El precio depende del producto | **A pie**, 10 min hacia el norte (Gangxia salida B). No es la tienda de UpperHills | A pie, 10 min | Línea 10 dirección 福田口岸, 1 parada, 福民, salida D | [Harmay](https://www.google.com/maps/search/?api=1&query=22.5388565,114.0612157) | [Corto](https://surl.amap.com/3bSIYl4d17aYf) · [Amap](https://uri.amap.com/search?keyword=HARMAY%20%E5%8D%93%E6%82%A6%E4%B8%AD%E5%BF%83&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
+| 6 | Shuiwei Night Market 水围夜市 | Desde las 16:00 hasta cerca de las 2:00 | Entrada gratis. Ración 15–40 ¥ (2–5 €). Cena para dos 80–150 ¥ (11–20 €) | **Metro.** Línea 10 dirección 福田口岸, 1 parada, 福民, salida D, 5–8 min a pie. Unos 20 min, unos 2 ¥. Taxi 10 min, 15–25 ¥ (2–3 €) | Línea 10 dirección 双拥街, 1 parada, 岗厦 | Fin del día | [Shuiwei](https://www.google.com/maps/search/?api=1&query=22.5224618,114.0586053) | [Corto](https://surl.amap.com/1BPJOu2K3YY) · [Amap](https://uri.amap.com/search?keyword=%E6%B0%B4%E5%9B%B4%E5%A4%9C%E5%B8%82&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
 
-| Orden | Sitio | Horario del jueves 5 | Precio | Desde el hotel | Volver al hotel | Google Maps | Amap |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 0 | Aeropuerto Bao'an, T3 | Llegada 07:10. Taxis 24 h | Taxi 100–180 ¥ (13–24 €). Metro unos 7 ¥ (1 €) por persona | No sale del hotel. Taxi oficial en la puerta 13. Mejor opción con maletas: 50–80 min en la hora punta. Destino: el texto en chino de arriba. Plan B: línea 11 dirección 岗厦北, bajada en 岗厦北 (unos 35 min) y 10–15 min a pie | — | [Aeropuerto](https://www.google.com/maps/search/?api=1&query=22.6403727,113.8030964) | [Amap](https://uri.amap.com/search?keyword=%E6%B7%B1%E5%9C%B3%E5%AE%9D%E5%AE%89%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BAT3&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
-| 1 | UpperHills 深业上城 | 10:00–22:00 (viernes y sábado hasta las 22:30). El jueves cierra a las 22:00 | Entrada gratis. Comida para dos en el centro: 150–300 ¥ (20–40 €) | **Metro.** Línea 10 en Gangxia, dirección 双拥街, 3 paradas, 冬瓜岭 Donggualing, salida E, 8 minutos a pie. Unos 25 min en total, unos 4 ¥ (0,50 €) por persona. Taxi: 15–25 min, 20–40 ¥ (3–5 €); en hora punta el metro es más fiable | Línea 10 dirección 福田口岸 hasta 岗厦, salida E, y 5 min a pie. Taxi 15–20 min | [UpperHills](https://www.google.com/maps/search/?api=1&query=22.5601574,114.0651169) | [Amap corto](https://surl.amap.com/1zLO25wj2Di) · [Amap](https://uri.amap.com/search?keyword=%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
-| 1b | Pop Mart, dentro de UpperHills | El mismo horario del centro, desde las 10:00 | Entrada gratis. Una caja ciega suele costar 59–79 ¥ (8–10 €); depende de la serie | El mismo metro que UpperHills. No es otro desplazamiento | El mismo regreso que UpperHills | [Pop Mart](https://www.google.com/maps/search/?api=1&query=Pop+Mart+UpperHills+Shenzhen) | [Amap corto](https://surl.amap.com/n00mGij6ZR) · [Amap](https://uri.amap.com/search?keyword=Pop%20Mart%20%E6%B7%B1%E4%B8%9A%E4%B8%8A%E5%9F%8E&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
-| 2 | Lianhua Hill Park 莲花山公园 | 6:00–23:00. Última entrada 22:30 | Gratis | Si ya estáis en UpperHills, **a pie por el puente** (10–20 min). No volváis al hotel. Desde el hotel directo: taxi 15 min, 20–35 ¥ (3–5 €). En metro es línea 10 hasta 莲花村 y un paseo; el taxi o el puente son más simples | Taxi 15 min, 20–35 ¥. En metro, bajad del parque por el sur hasta 少年宫 y transbordo: línea 4 hasta 会展中心 y línea 1 una parada hasta 岗厦 | [Lianhua](https://www.google.com/maps/search/?api=1&query=22.5566275,114.0532386) | [Amap corto](https://surl.amap.com/5Ay7ZNcydbt) · [Amap](https://uri.amap.com/search?keyword=%E8%8E%B2%E8%8A%B1%E5%B1%B1%E5%85%AC%E5%9B%AD&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
-| 3 | Paseo del CBD de Futian | El paseo es de día. La iluminación de las torres, 19:00–22:00 | Gratis. Sin reserva un jueves | No se hace como salida suelta desde el hotel si acabáis de estar en Lianhua: se baja andando hacia el sur (Civic Center y las torres) unos 30–40 min hasta CoCo Park. Desde el hotel, si vais solo a ver las torres: 20–25 min a pie hacia el norte, o taxi 10 min hasta 市民中心 | A pie hasta el hotel si ya estáis abajo del todo (15–25 min), o línea 1 desde 购物公园 o 会展中心 hasta 岗厦 | [CBD](https://www.google.com/maps/search/?api=1&query=22.5463725,114.0545223) | [Amap corto](https://surl.amap.com/3PNXeW190X0) · [Amap](https://uri.amap.com/search?keyword=%E6%B7%B1%E5%9C%B3%E5%B8%82%E6%B0%91%E4%B8%AD%E5%BF%83&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
-| 4 | CoCo Park 星河COCO Park | 10:00–22:00, horario habitual del centro | Entrada gratis | **Metro.** Línea 1 en Gangxia, dirección 机场东, 2 paradas, 购物公园 Shopping Park, salida C. Unos 10 min, unos 3 ¥ por persona. Taxi 10 min, 15–25 ¥ (2–3 €). Andando por el CBD, 25–30 min | Línea 1 dirección 罗湖, 2 paradas, 岗厦, salida E | [CoCo Park](https://www.google.com/maps/search/?api=1&query=22.5363888,114.0488652) | [Amap corto](https://surl.amap.com/66NMiBAfFR) · [Amap](https://uri.amap.com/search?keyword=%E6%98%9F%E6%B2%B3COCO%20Park&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
-| 5 | Harmay, One Avenue 卓悦中心 | 10:00–22:00 | Entrada gratis. El precio depende del producto | **A pie**, 10 minutos hacia el norte, zona de Gangxia salida B / Fuhua 1st Road. No hace falta taxi ni metro | A pie, 10 min | [Harmay](https://www.google.com/maps/search/?api=1&query=22.5388565,114.0612157) | [Amap corto](https://surl.amap.com/3bSIYl4d17aYf) · [Amap](https://uri.amap.com/search?keyword=HARMAY%20%E5%8D%93%E6%82%A6%E4%B8%AD%E5%BF%83&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
-| 6 | Riad by The Theatre | El bar The Theatre, en el mismo One Avenue, figura 14:00–02:00. Las torres, 19:00–22:00 | Sin entrada. Conviene reservar terraza. Un cóctel en esta zona suele ir de 70 a 120 ¥ (9–16 €); no hay carta oficial publicada | **A pie**, los mismos 10 minutos que Harmay. Hacedlos seguidos | A pie, 10 min | [Riad / The Theatre](https://www.google.com/maps/search/?api=1&query=22.536357,114.066925) | [Amap corto](https://surl.amap.com/19EpkqmR9fz) · [Amap](https://uri.amap.com/search?keyword=Riad%20by%20The%20Theatre%20%E5%8D%93%E6%82%A6%E4%B8%AD%E5%BF%83&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
-| 7 | Shuiwei Night Market 水围夜市 | Puestos desde las 16:00 hasta pasada la medianoche (sobre las 2:00) | Entrada gratis. Una ración 15–40 ¥ (2–5 €). Cena para dos 80–150 ¥ (11–20 €) | **Metro.** Línea 10 en Gangxia, dirección 福田口岸, 1 parada, 福民 Fumin, salida D, 5–8 min a pie. Unos 20 min, unos 2 ¥ por persona. Taxi 10 min, 15–25 ¥ (2–3 €) | Línea 10 dirección 双拥街, 1 parada, 岗厦. O taxi | [Shuiwei](https://www.google.com/maps/search/?api=1&query=22.5224618,114.0586053) | [Amap corto](https://surl.amap.com/1BPJOu2K3YY) · [Amap](https://uri.amap.com/search?keyword=%E6%B0%B4%E5%9B%B4%E5%A4%9C%E5%B8%82&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
+## Pasa al viernes 6
 
-### De un sitio al siguiente, sin volver al hotel
+El espectáculo del Civic Center, en noviembre, tiene pases a las 19:00, a las 20:00 y a las 21:00. Entrar en la plaza pide reserva y es gratis. El canal es el miniprograma de WeChat «福田中心区夜景灯光预约导引服务». Riad by The Theatre está al lado y sirve para ver las torres, pero tampoco hace falta el jueves.
 
-| De | A | Cómo |
-| --- | --- | --- |
-| Hotel | UpperHills | Metro línea 10, dirección norte (双拥街), bajada en 冬瓜岭, salida E |
-| UpperHills | Lianhua Hill | A pie, por el puente. 10–20 min |
-| Lianhua Hill | CBD y CoCo Park | A pie hacia el sur, 30–40 min, pasando el Civic Center. CoCo Park queda en la salida C de 购物公园 |
-| CoCo Park | Hotel | Metro línea 1, dirección 罗湖, 2 paradas, 岗厦, salida E |
-| Hotel | Harmay y Riad | A pie, 10 min |
-| Riad | Shuiwei | Metro línea 10, dirección 福田口岸, 1 parada, 福民, salida D. O taxi 10 min |
-| Shuiwei | Hotel | Metro línea 10, dirección 双拥街, 1 parada, 岗厦 |
+- [Google Maps — Civic Center](https://www.google.com/maps/search/?api=1&query=22.5463725,114.0545223)
+- [Amap corto — CBD](https://surl.amap.com/3PNXeW190X0)
+- [Google Maps — Riad](https://www.google.com/maps/search/?api=1&query=22.536357,114.066925)
+- [Amap corto — Riad](https://surl.amap.com/19EpkqmR9fz)
 
-## Alternativas
+## Alternativas de hoy
 
-Misma regla: cómo llegar está contado desde el hotel. En la columna de encaje se dice en qué punto de la ruta se pueden meter sin deshacer el día.
-
-El jueves 5 solo cabe una. El museo es gratis y está en la bajada del CBD. Ping An es el único de pago y está al lado de CoCo Park; un jueves cierra a las 20:00, así que no sirve para una visita nocturna larga.
+Solo si sobra tiempo. Con el Pokémon en medio, el museo y el mirador no caben en este jueves.
 
 | Opción | Horario del jueves 5 | Precio | Desde el hotel | Dónde encaja | Google Maps | Amap |
 | --- | --- | --- | --- | --- | --- | --- |
-| Museo de Shenzhen, sala de historia y folklore. Dentro del Civic Center | Abierto. Cierra los lunes. 10:00–18:00, última entrada 17:30. Con pasaporte extranjero se entra por el carril verde, sin reserva | Gratis | Taxi 10 min hasta 市民中心, 15–25 ¥ (2–3 €). En metro: línea 1 una parada hasta 会展中心, transbordo a la línea 4 una parada hasta 市民中心. A pie 25 min hacia el norte | En la bajada de Lianhua al CBD, si entráis antes de las 17:30. Calculad 60–90 min. Si entráis, acortad CoCo Park. No lo combinéis con Ping An | [Museo](https://www.google.com/maps/search/?api=1&query=22.5462992,114.0566279) | [Amap](https://uri.amap.com/search?keyword=%E6%B7%B1%E5%9C%B3%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8E%86%E5%8F%B2%E6%B0%91%E4%BF%97%E9%A6%86&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
-| Mirador Free Sky, planta 116 del Ping An Finance Center. 益田路5033号 | 10:00–20:00. Última entrada 19:15. Tel. 0755-29163888 | 180 ¥ por persona si se compra antes (24 €). El mismo día, 200 ¥ (26 €). Dos personas: 48–53 € | El mismo metro que CoCo Park: línea 1 hasta 购物公园, salida D, un minuto a pie. Taxi 10–15 min, 15–30 ¥ (2–4 €) | En el hueco de CoCo Park, entrando sobre las 16:30, para coger la luz de la tarde. Hora y media. Si subís, saltad el museo y no alarguéis el centro comercial | [Ping An](https://www.google.com/maps/search/?api=1&query=22.5367317,114.0503553) | [Amap](https://uri.amap.com/search?keyword=%E5%B9%B3%E5%AE%89%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E4%BA%91%E9%99%85%E8%A7%82%E5%85%89%E5%B1%82&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
-
-Volver al hotel desde las dos alternativas: línea 1 desde 购物公园 o 会展中心 hasta 岗厦, salida E. Desde el museo también vale un taxi de 10 minutos.
+| Museo de Shenzhen, historia y folklore, en el Civic Center | 10:00–18:00, última entrada 17:30. Pasaporte: carril verde, sin reserva. Los lunes cierra | Gratis | Taxi 10 min, 15–25 ¥ (2–3 €). Metro: línea 1 a 会展中心 y línea 4 a 市民中心 | No encaja hoy si hacéis el Pokémon. La bajada de Lianhua va hacia el taxi, no hacia el museo | [Museo](https://www.google.com/maps/search/?api=1&query=22.5462992,114.0566279) | [Amap](https://uri.amap.com/search?keyword=%E6%B7%B1%E5%9C%B3%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8E%86%E5%8F%B2%E6%B0%91%E4%BF%97%E9%A6%86&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
+| Mirador Free Sky, Ping An, planta 116. 益田路5033号. Tel. 0755-29163888 | 10:00–20:00. Última entrada 19:15 | 180 ¥ si se compra antes (24 €). El mismo día 200 ¥ (26 €). Dos personas: 48–53 € | Línea 1 hasta 购物公园, salida D | Está al lado de CoCo Park. Solo si llegáis de Qianhai antes de las 18:00 y cambiáis CoCo Park por la subida | [Ping An](https://www.google.com/maps/search/?api=1&query=22.5367317,114.0503553) | [Amap](https://uri.amap.com/search?keyword=%E5%B9%B3%E5%AE%89%E9%87%91%E8%9E%8D%E4%B8%AD%E5%BF%83%E4%BA%91%E9%99%85%E8%A7%82%E5%85%89%E5%B1%82&city=%E6%B7%B1%E5%9C%B3&callnative=1) |
